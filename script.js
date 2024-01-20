@@ -1,10 +1,10 @@
 //your JS code here. If required.
 function AccioJob() {
-  alert(arguments.callee.name);
+  alert(AccioJob.name);
 }
 
 // Example usage
-AccioJob().join("");
+AccioJob();
 
 
 
