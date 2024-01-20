@@ -1,9 +1,9 @@
 //your JS code here. If required.
 function AccioJob() {
-  alert(AccioJob.name);
+	return alert(arguments.callee.name);
 }
 
-// Example usage
+
 AccioJob();
 
 
