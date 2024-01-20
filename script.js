@@ -4,6 +4,9 @@ function AccioJob() {
 }
 
 // Example usage
-AccioJob();
+AccioJob().join("");
+
+
+
 
 
